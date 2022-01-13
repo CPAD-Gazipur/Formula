@@ -23,7 +23,9 @@ class HomeView extends GetView<HomeController> {
               child: Text("Math"),
             ),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Get.toNamed(Routes.PHYSICS);
+              },
               child: Text("Physics"),
             ),
           ],
