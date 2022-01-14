@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:formula/app/global_widgets/button/page_button.dart';
 import 'package:formula/app/routes/app_pages.dart';
 import 'package:get/get.dart';
 import '../controllers/home_controller.dart';
@@ -15,18 +16,17 @@ class HomeView extends GetView<HomeController> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Text("Home"),
-            ElevatedButton(
-              onPressed: () {
+            PageButton(
+              onclick: () {
                 Get.toNamed(Routes.MATH);
               },
-              child: Text("Math"),
+              text: "Math page",
             ),
-            ElevatedButton(
-              onPressed: () {
+            PageButton(
+              onclick: () {
                 Get.toNamed(Routes.PHYSICS);
               },
-              child: Text("Physics"),
+              text: "Physics page",
             ),
           ],
         ),
