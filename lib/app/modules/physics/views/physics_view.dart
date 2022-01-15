@@ -25,36 +25,42 @@ class PhysicsView extends GetView<PhysicsController> {
                   Get.toNamed(Routes.MOTION);
                 },
                 text: "Motion Formula",
+                color: Colors.greenAccent,
               ),
               PageButton(
                 onclick: () {
                   Get.toNamed(Routes.FORCE);
                 },
                 text: "Force Formula",
+                color: Colors.yellowAccent,
               ),
               PageButton(
                 onclick: () {
                   Get.toNamed(Routes.WPE);
                 },
                 text: "Work , Power & Energy Formula",
+                color: Colors.pinkAccent,
               ),
               PageButton(
                 onclick: () {
                   Get.toNamed(Routes.PRESSURE);
                 },
                 text: "Pressure Formula",
+                color: Colors.purpleAccent,
               ),
               PageButton(
                 onclick: () {
                   Get.toNamed(Routes.WAVE);
                 },
                 text: "Wave Formula",
+                color: Colors.blueAccent,
               ),
               PageButton(
                 onclick: () {
                   Get.toNamed(Routes.PQM);
                 },
                 text: "Physical Quantities & Measurements Formula",
+                color: Colors.amber,
               ),
             ],
           ),

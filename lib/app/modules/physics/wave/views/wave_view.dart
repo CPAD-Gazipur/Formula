@@ -9,7 +9,7 @@ class WaveView extends GetView<WaveController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('WaveView'),
+        title: Text('Wave'),
         centerTitle: true,
       ),
       body: Center(

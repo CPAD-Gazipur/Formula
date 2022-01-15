@@ -13,9 +13,14 @@ class ForceView extends GetView<ForceController> {
         centerTitle: true,
       ),
       body: Center(
-        child: Text(
-          'ForceView is working',
-          style: TextStyle(fontSize: 20),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Text(
+              'ForceView is working',
+              style: TextStyle(fontSize: 20),
+            ),
+          ],
         ),
       ),
     );

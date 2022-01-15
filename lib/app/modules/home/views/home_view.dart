@@ -21,12 +21,14 @@ class HomeView extends GetView<HomeController> {
                 Get.toNamed(Routes.MATH);
               },
               text: "Math page",
+              color: Colors.yellowAccent,
             ),
             PageButton(
               onclick: () {
                 Get.toNamed(Routes.PHYSICS);
               },
               text: "Physics page",
+              color: Colors.redAccent,
             ),
           ],
         ),
